@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  width: 1280;
+  height: 720;
+}
+
+#video-holder {
+  width: 100%;
+  height: 100%;
+}

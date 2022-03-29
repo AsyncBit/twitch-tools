@@ -1,0 +1,19 @@
+<head>
+  <script src="./js/comfy.min.js"></script>
+  <script src="./js/TwitchListener.js"></script>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body>
+  <div id="main-container">
+    <div id="audio-holder">
+      <audio id="audio" src="" preload="auto"></audio>
+    </div>
+    <div id="video-holder" style="visibility: hidden">
+      <video id="video" muted="" playsinline="" onended="stopVid()">
+        <source id="source" src="" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
