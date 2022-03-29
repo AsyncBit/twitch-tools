@@ -7,8 +7,8 @@
  */
 let running = false;
 
-const CLIENT_ID = "";
-const CLIENT_SECRET = "";
+let CLIENT_ID = "";
+let CLIENT_SECRET = "";
 
 if (urlParams.has("clientid")) {
   CLIENT_ID = urlParams.get("clientid");
